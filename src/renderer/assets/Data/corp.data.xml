@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CorpConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Corps>
+    <CorpConfigItem Id="4" LimitName="锦林" Status="-1">
+      <FullName>佛山市顺德区锦林贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\4</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="5" LimitName="科琪" Status="-1">
+      <FullName>佛山市顺德区科琪塑料贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\5</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="6" LimitName="恩基" Status="-1">
+      <FullName>佛山市顺德区恩基贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\6</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="7" LimitName="颂星" Status="0">
+      <FullName>佛山市顺德区颂星涂料有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\7</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="8" LimitName="傲瑞" Status="0">
+      <FullName>佛山市顺德区傲瑞贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\8</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="9" LimitName="贸成" Status="0">
+      <FullName>佛山市顺德区贸成贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\9</DbName>
+      <LastFinishPeriod>
+        <Id>157</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年01月</NoteMonth>
+        <StartDate>2013-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="10" LimitName="中研" Status="0">
+      <FullName>佛山市中研贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\10</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="11" LimitName="力泓" Status="0">
+      <FullName>佛山市顺德区力泓贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\11</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="12" LimitName="佰润" Status="-1">
+      <FullName>佛山市顺德区佰润贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\12</DbName>
+      <LastFinishPeriod>
+        <Id>157</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年01月</NoteMonth>
+        <StartDate>2013-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="13" LimitName="纳业" Status="0">
+      <FullName>佛山市顺德区纳业贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\13</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="14" LimitName="卓懋" Status="0">
+      <FullName>佛山市顺德区卓懋贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\14</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="15" LimitName="敏发" Status="0">
+      <FullName>佛山市顺德区敏发贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\15</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="16" LimitName="商基2" Status="0">
+      <FullName>佛山市顺德区商基贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\16</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="17" LimitName="冠楠" Status="0">
+      <FullName>佛山市顺德区冠楠贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\17</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="18" LimitName="浩根" Status="0">
+      <FullName>佛山市顺德区浩根贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\18</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="19" LimitName="商基3" Status="-1">
+      <FullName>佛山市顺德区商基贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\19</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="20" LimitName="乾鸿" Status="0">
+      <FullName>佛山市顺德区乾鸿贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\20</DbName>
+    </CorpConfigItem>
+    <CorpConfigItem Id="21" LimitName="坤程" Status="0">
+      <FullName>佛山市顺德区坤程塑料贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\21</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="22" LimitName="锦林2" Status="-1">
+      <FullName>佛山市顺德区锦林贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\22</DbName>
+      <LastFinishPeriod>
+        <Id>157</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年01月</NoteMonth>
+        <StartDate>2013-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="23" LimitName="恩基2" Status="0">
+      <FullName>佛山市顺德区恩基贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\23</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="24" LimitName="科琪" Status="0">
+      <FullName>佛山市顺德区科琪塑料贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\24</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="25" LimitName="盛中" Status="0">
+      <FullName>佛山市顺德区乐从镇盛中贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\25</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="26" LimitName="" Status="-1">
+      <FullName>中研２</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\26</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="27" LimitName="中研" Status="-1">
+      <FullName>中研2</FullName>
+      <Contact>贞</Contact>
+      <Telphone>28080672</Telphone>
+      <DbName>Data\27</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="28" LimitName="当鸿" Status="0">
+      <FullName>当鸿</FullName>
+      <Contact>陈文波</Contact>
+      <Telphone />
+      <DbName>Data\28</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="29" LimitName="纳满" Status="0">
+      <FullName>佛山市顺德区纳满贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\29</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="30" LimitName="商基(邮政户)" Status="0">
+      <FullName>佛山市顺德区商基贸易有限公司款</FullName>
+      <Contact>刘兆初</Contact>
+      <Telphone>28824161</Telphone>
+      <DbName>Data\30</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="31" LimitName="拓驰" Status="-1">
+      <FullName>佛山市顺德区拓驰贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\31</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="32" LimitName="拓驰２" Status="-1">
+      <FullName>佛山市顺德区拓驰贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\32</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="33" LimitName="拓驰" Status="-1">
+      <FullName>佛山市顺德区拓驰贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\33</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="34" LimitName="拓驰1" Status="0">
+      <FullName>佛山市顺德区拓驰贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\34</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="35" LimitName="双展" Status="0">
+      <FullName>佛山市顺德区双展贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\35</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="36" LimitName="约堡" Status="0">
+      <FullName>佛山市顺德区约堡珠宝有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\36</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="37" LimitName="祺创" Status="0">
+      <FullName>佛山市祺创贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\37</DbName>
+      <LastFinishPeriod>
+        <Id>168</Id>
+        <DbVersion>1</DbVersion>
+        <NoteMonth>2013年12月</NoteMonth>
+        <StartDate>2013-12-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>Finish</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="38" LimitName="百楹" Status="-1">
+      <FullName>广东顺德百楹贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\38</DbName>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="39" LimitName="B百楹" Status="0">
+      <FullName>广东顺德百楹贸易有限公司</FullName>
+      <Contact>周国强</Contact>
+      <Telphone>13929103848</Telphone>
+      <DbName>Data\39</DbName>
+      <Addr>佛山市顺德区乐从镇腾冲康德路111号三楼308</Addr>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="40" LimitName="捷川" Status="0">
+      <FullName>佛山市捷川钢铁贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\40</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="41" LimitName="领德" Status="-1">
+      <FullName>佛山市顺德区领德贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\41</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="42" LimitName="领德（主）" Status="0">
+      <FullName>佛山市顺德区领德贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\42</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="43" LimitName="领德（副）" Status="-1">
+      <FullName>佛山市顺德区领德贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\43</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="44" LimitName="领德（副）" Status="0">
+      <FullName>佛山市顺德区领德贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\44</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="45" LimitName="商基(农行)" Status="0">
+      <FullName>佛山市顺德区商基贸易有限公司</FullName>
+      <Contact>刘兆初</Contact>
+      <Telphone>28855591</Telphone>
+      <DbName>Data\45</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="46" LimitName="潮实" Status="-1">
+      <FullName>佛山市潮实贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\46</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="47" LimitName="潮实" Status="0">
+      <FullName>佛山市潮实贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\47</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="48" LimitName="浩根3320" Status="-1">
+      <FullName>佛山市顺德区浩根贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\48</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="49" LimitName="浩根3320" Status="-1">
+      <FullName>佛山市顺德区浩根贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\49</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="50" LimitName="浩根3320" Status="0">
+      <FullName>佛山市顺德区浩根贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\50</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="51" LimitName="捷川8359" Status="0">
+      <FullName>佛山市顺德区捷川贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\51</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="52" LimitName="佰润1" Status="0">
+      <FullName>佛山市顺德区佰润贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\52</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="53" LimitName="锦林" Status="0">
+      <FullName>佛山市顺德区锦林贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\53</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="54" LimitName="宝驰" Status="0">
+      <FullName>佛山市顺德区宝驰贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\54</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="55" LimitName="城玮" Status="0">
+      <FullName>佛山市城玮贸易有限公司</FullName>
+      <Contact>梁建铭</Contact>
+      <Telphone>18029328638</Telphone>
+      <DbName>Data\55</DbName>
+      <Addr>佛山市顺德区乐从镇天佑城星光广场C座609号</Addr>
+    </CorpConfigItem>
+    <CorpConfigItem Id="56" LimitName="昊旻" Status="0">
+      <FullName>佛山市顺德区昊旻贸易有限公司</FullName>
+      <Contact>何健聪</Contact>
+      <Telphone />
+      <DbName>Data\56</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="57" LimitName="铭柏" Status="-1">
+      <FullName>佛山市铭柏贸易有限公司</FullName>
+      <Contact>陈志柏</Contact>
+      <Telphone />
+      <DbName>Data\57</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="58" LimitName="韶润" Status="-1">
+      <FullName>佛山市顺德区韶润贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\58</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="59" LimitName="韶润" Status="0">
+      <FullName>佛山市顺德区韶润贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\59</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="60" LimitName="铭柏" Status="0">
+      <FullName>佛山市铭柏贸易有限公司</FullName>
+      <Contact>陈志柏</Contact>
+      <Telphone />
+      <DbName>Data\60</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="61" LimitName="拓耀" Status="0">
+      <FullName>佛山市顺德区拓耀贸易有限公司</FullName>
+      <Contact />
+      <Telphone />
+      <DbName>Data\61</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="62" LimitName="润权" Status="0">
+      <FullName>佛山市顺德区润权贸易有限公司</FullName>
+      <Contact>陈亚权</Contact>
+      <Telphone />
+      <DbName>Data\62</DbName>
+      <Addr />
+    </CorpConfigItem>
+    <CorpConfigItem Id="63" LimitName="潮实贸易" Status="-1">
+      <FullName>佛山市潮实贸易有限公司</FullName>
+      <Contact>袁凯伦</Contact>
+      <Telphone>0757-</Telphone>
+      <DbName>Data\63</DbName>
+      <Addr>广东钢铁世界A9区钢铁世界大道08号办公室三楼01</Addr>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="64" LimitName="潮实贸易" Status="-1">
+      <FullName>佛山市潮实贸易有限公司</FullName>
+      <Contact>袁凯伦</Contact>
+      <Telphone />
+      <DbName>Data\64</DbName>
+      <Addr>乐从</Addr>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="65" LimitName="潮实贸易" Status="0">
+      <FullName>佛山市潮实贸易有限公司</FullName>
+      <Contact>袁凯伦</Contact>
+      <Telphone />
+      <DbName>Data\65</DbName>
+      <Addr>乐从</Addr>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="66" LimitName="晋永" Status="-1">
+      <FullName>佛山市顺德区晋永贸易有限公司</FullName>
+      <Contact>陈小燕</Contact>
+      <Telphone>18923293363</Telphone>
+      <DbName>Data\66</DbName>
+      <Addr>乐从镇</Addr>
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="67" LimitName="晋永" Status="-1">
+      <FullName>佛山市顺德区晋永贸易有限公司</FullName>
+      <Contact>何志强</Contact>
+      <Telphone />
+      <DbName>Data\67</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="68" LimitName="晋永" Status="-1">
+      <FullName>佛山市顺德区晋永贸易有限公司</FullName>
+      <Contact>何志强</Contact>
+      <Telphone />
+      <DbName>Data\68</DbName>
+      <Addr />
+      <LastFinishPeriod>
+        <Id>0</Id>
+        <DbVersion>0</DbVersion>
+        <StartDate>0001-01-01T00:00:00</StartDate>
+        <EndDate>0001-01-01T00:00:00</EndDate>
+        <Status>None</Status>
+      </LastFinishPeriod>
+    </CorpConfigItem>
+    <CorpConfigItem Id="69" LimitName="晋永" Status="0">
+      <FullName>佛山市顺德区晋永贸易有限公司</FullName>
+      <Contact>陈小燕</Contact>
+      <Telphone />
+      <DbName>Data\69</DbName>
+      <Addr />
+    </CorpConfigItem>
+  </Corps>
+</CorpConfig>
