@@ -1,2 +1,3 @@
 node_modules
 src/renderer/syscfg.db
+dist
