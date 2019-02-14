@@ -4,11 +4,11 @@
     <div style="font-weight:bold;width:800px">当前企业</div>
     <div class="HitShow" >
         <div style="float:left;width:400px; height:180px;">   
-            <span title="请点击选择一家企业" id='lblCorpName'>{{form.FullName}}</span><br />
-            <span title="企业名" id='lblLimitName'>简称：{{form.LimitName}}</span><br />
-            <span id='lblCorpPhone'>电话：{{form.Phone}}</span><br />
-            <span id='lblCorpLastPeriod'>结转：{{form.LastPeriod}}</span><br/>
-            <span>数据：{{form.id}}</span>
+            <span title="请点击选择一家企业" id='lblCorpName'>{{curCorp.FullName}}</span><br />
+            <span title="企业名" id='lblLimitName'>简称：{{curCorp.LimitName}}</span><br />
+            <span id='lblCorpPhone'>电话：{{curCorp.Phone}}</span><br />
+            <span id='lblCorpLastPeriod'>结转：{{curCorp.LastPeriod}}</span><br/>
+            <span>数据：{{curCorp.id}}</span>
         </div>
         <div style=" display:none; float:left;  width:120px;  height:50px;">
             <a style="width:100px;"  href="javascript:openNull(-1);" title="暂无帮助信息">修改信息</a>
@@ -86,10 +86,10 @@ export default {
           this.dialogFormVisible = true;
       }
       curApi.edit=()=>{
-          if(!this.form.id){
+          if(!this.curCorp.id){
             alert('请选择一个企业.');
           }else{
-            this.editCorp = JSON.parse(JSON.stringify(this.form)); 
+            this.editCorp = JSON.parse(JSON.stringify(this.curCorp)); 
             this.dialogFormVisible = true;
         }
           
@@ -104,8 +104,7 @@ export default {
         submitBtn:"submitButton",
         submitTestBtn:"testSubmitButton",        
         testFormVisible:false,
-        dialogFormVisible: false,
-        form: {},
+        dialogFormVisible: false,        
         editCorp:{},
      
     }  
@@ -113,10 +112,7 @@ export default {
   computed:{
       curCorp:function(){
           return this.$store.state.Corp.CurCorp;
-      },
-      allCorps1:function(){        
-          return this.$store.state.Corp.AllCorps;
-      }     
+      }
   },
   mounted(){
       //console.log("mounted...");
@@ -132,7 +128,7 @@ export default {
          //let clCorp = clone(corp);
          let clCorp = JSON.parse(JSON.stringify(corp)); 
          this.$store.dispatch("setCurCorp",clCorp);
-         this.form = corp;
+         //this.form = corp;
        },
        customerDialogOpen() {
          //  console.log(this);
@@ -167,11 +163,13 @@ export default {
               //console.log(dbReturn);
               //this.$store.dispatch("setAllCorps",dbReturn);
               this.allCorps = dbReturn;
+              /*
               if(this.$store.state.Corp.CurCorp){
                 let lastCorp = this.allCorps.filter(v => v.id === this.$store.state.Corp.CurCorp.id);
                 if(lastCorp && lastCorp.length>0)
                   this.form = lastCorp[0];
               }
+              */
             }
         });
       }
