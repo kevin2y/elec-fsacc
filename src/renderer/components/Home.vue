@@ -76,7 +76,7 @@ export default {
       let curApi = this.$parent.currView;      
       curApi.newEdit = ()=>{
           //this.submitButton = "submitButton";
-          this.form = {
+          this.editCorp = {
             LimitName: '',
             FullName: '',
             Phone: '',
@@ -105,8 +105,7 @@ export default {
         submitTestBtn:"testSubmitButton",        
         testFormVisible:false,
         dialogFormVisible: false,        
-        editCorp:{},
-     
+        editCorp:{},     
     }  
   },
   computed:{
@@ -227,5 +226,17 @@ margin-top: 0px;
 padding:10px;
 width: 800px;
 float: left;
+}
+ul
+{
+    list-style:none; /* 去掉ul前面的符号 */
+    margin: 0px; /* 与外界元素的距离为0 */
+    padding: 0px; /* 与内部元素的距离为0 */
+    width: auto; /* 宽度根据元素内容调整 */
+}
+/* 所有ul中的li样式 */
+ul li
+{
+    float:left; /* 向左漂移，将竖排变为横排 */
 }
 </style>
