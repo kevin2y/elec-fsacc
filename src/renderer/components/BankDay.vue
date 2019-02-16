@@ -5,7 +5,7 @@
 
       <el-main>
         <h2>现金日记帐</h2>
-        <el-table :data="tableData3" style="width: 100%;" highlight-current-row :header-cell-style="headCellStyle" :row-style="rowStyle">
+        <el-table :data="tableData3" height="400" style="width: 100%;" highlight-current-row :header-cell-style="headCellStyle" :row-style="rowStyle">
     <el-table-column prop="date" label="日期" width="150" height="40"></el-table-column>
     <el-table-column prop="BillNo" label="凭证" width="100"></el-table-column>
     <el-table-column prop="Desc" label="摘要" width="100"></el-table-column>
@@ -29,8 +29,7 @@
         <el-form v-enterToNext>
         <el-row :gutter="24">
           <el-col :span="6"><div>日期：<el-date-picker v-model="value1" @blur="nextFocus('afterPickDate')" type="date" placeholder="选择日期">
-    </el-date-picker></div></el-col>
-    <input type="hidden"  ></input>
+    </el-date-picker></div></el-col>    
           <el-col :span="3"><div>凭证：<el-input placeholder="请输入凭证号" ref="afterPickDate" v-model="input2">  </el-input></div></el-col>
           <el-col :span="12"><div>摘要：<el-input  placeholder="请输入摘要"        v-model="input2">  </el-input></div></el-col>
           <el-col :span="3"><div>方向：<el-input    placeholder="请输入摘要"        v-model="input2">  </el-input></div> </el-col>
@@ -88,6 +87,20 @@
           address: '上海市普陀区金沙江路 1518 弄',
           BankBalance: 333
         }, {
+          date: '2016-05-06',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1518 弄',
+          BankBalance: 133
+        },  {
+          date: '2016-05-06',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1518 弄',
+          BankBalance: 133
+        },  {
           date: '2016-05-06',
           name: '王小虎',
           province: '上海',

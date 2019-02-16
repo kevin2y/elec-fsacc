@@ -28,7 +28,7 @@ Vue.directive('enterToNext',{
     for( var i = 0 ;i < inputs.length ; i++ ){
       //设置当前控件的序号
       inputs[i].setAttribute("keyFocusIndex",i);
-      inputs[i].addEventListener('keyup', (ev) => { 
+      inputs[i].addEventListener('keydown', (ev) => { 
         //检查多个表单是否混合在inputs中
         //console.log("inputs.lenght = " + inputs.length);              
         if (ev.keyCode === 13) {          
