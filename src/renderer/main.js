@@ -8,8 +8,8 @@ import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-import iView from "iview"
-import 'iview/dist/styles/iview.css'
+//import iView from "iview"
+//import 'iview/dist/styles/iview.css'
 
 import Corps from "./SysDb";
 
@@ -19,7 +19,7 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 Vue.use(ElementUI);
-Vue.use(iView);
+//Vue.use(iView);
 //Vue.use(Vuex);
 
 Vue.directive('enterToNext',{
