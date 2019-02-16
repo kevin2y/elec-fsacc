@@ -2,10 +2,10 @@
   <div id="app">   
     
      <ul :style=toolStyle>
-       <li v-for="btn in toolButtons">
+       <li style="float:left;" v-for="btn in toolButtons">
          <img class="toolItem" :src="btn.Image" :style="btn.Style" @click="handleClick(btn.Act,btn.Target)" >
        </li>
-       <li style="margin:6px;">
+       <li style="float:left;margin-top:6px;">
      <el-select v-model="selectedMonth" placeholder="请选择记帐月份" size="mini">
       <el-option label="2018-01" value="shanghai"></el-option>
       <el-option label="2018-02" value="beijing"></el-option>
@@ -28,7 +28,10 @@
            selectedMonth:'',
             toolStyle: {
               backgroundImage: "url(" + require("./assets/ToolBG.jpg") + ")",
-              height:"38px",              
+              height:"38px",  
+              listStyle:"none", /* 去掉ul前面的符号 */
+              margin: "0px", /* 与外界元素的距离为0 */
+              padding: "0px", /* 与内部元素的距离为0 */    
             },
             toolButtons:[
               {Image:require("./assets/home.png"),Act:"Url",Target:"/"},
@@ -79,17 +82,6 @@
 margin-top:5px;
 margin-left: 7px;
 }
-ul
-{
-    list-style:none; /* 去掉ul前面的符号 */
-    margin: 0px; /* 与外界元素的距离为0 */
-    padding: 0px; /* 与内部元素的距离为0 */
-    width: auto; /* 宽度根据元素内容调整 */
-}
-/* 所有ul中的li样式 */
-ul li
-{
-    float:left; /* 向左漂移，将竖排变为横排 */
-}
+
   /* CSS */
 </style>
