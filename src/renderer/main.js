@@ -25,9 +25,9 @@ Vue.use(ElementUI);
 Vue.directive('enterToNext',{
   inserted:function(el,bind,vnode){
     let inputs = el.querySelectorAll('input');
-    let lastFocus = bind.value;
-    //取当前的VUE
-    let mainVue = vnode.context;    
+    let lastFunc = bind.value;
+    //取当前的VUE，//mainVue.$refs[lastFocus].$el.focus();        
+    let mainVue = vnode.context; 
     //绑定回写事件
     for( var i = 0 ;i < inputs.length ; i++ ){
       //设置当前控件的序号
@@ -40,15 +40,24 @@ Vue.directive('enterToNext',{
             var ctlI = parseInt(attrIndex);
             if(ctlI<inputs.length-1){
               inputs[ctlI+1].focus();//非最后一个input，跳下控件  
-            }else{
-              if(lastFocus && mainVue.$refs[lastFocus])
-                mainVue.$refs[lastFocus].$el.focus(); //最后一个input，焦点跳转到表单最后控件          
+            }else{              
+              if(lastFunc)//最后一个input，如果指定最的方法，执行该方法
+                lastFunc();                   
             } 
           }
+      });
+      inputs[i].addEventListener('focus', (ev) => { 
+        //选中所有文本
+        ev.srcElement.setSelectionRange(0,ev.srcElement.value.length)
       });
     }
     
   },
+});
+
+router.beforeEach((to,from,next)=>{
+  window.document.title = to.meta.title + " - fsaccount";
+  next();
 });
 
 new Vue({

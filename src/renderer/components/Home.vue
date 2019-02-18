@@ -16,7 +16,7 @@
         <div style="float:right; margin-left:20px;  height:80px; width:240px;">
             <a style="width:200px;"  href="#/bankday" title="点击打开出纳日记帐">出纳日记帐</a><br/>           
             <a style="width:200px;"  href="#/stockdetail" title="数量金额明细分类帐">数量金额明细分类帐</a><br/>
-            <a style="width:200px;"  href="javascript:goCorpAction('InputAccounting');" title="录入记帐凭证">录入记帐凭证</a> <br/>
+            <a style="width:200px;"  href="#/test" title="录入记帐凭证">elemenu-ui测试</a> <br/>
             <a style="width:200px;"  href="javascript:goCorpAction('SalesBill');" title="录入查看销售单">销售单</a><br/>     
             <a style="width:200px;"  href="javascript:cancelLastFinishPeriod();" title="取消上期结转">取消上期结转</a> <br/> 
         </div>
@@ -42,7 +42,7 @@
 
     </div>
     <el-dialog title="企业信息" :visible.sync="dialogFormVisible" width="450px" @open="customerDialogOpen" >
-        <el-form :model="editCorp" v-enterToNext:lastTo="submitBtn">
+        <el-form :model="editCorp" v-enterToNext:lastFunc="focusSubmitBtn">
             <el-form-item label="简称" label-width="60px">
             <el-input v-model="editCorp.LimitName" autocomplete="off" ref="customerInput"></el-input>
             </el-form-item>
@@ -119,6 +119,9 @@ export default {
       this.showAllCorps();      
   },
  methods:{
+      focusSubmitBtn:function(){      
+        this.$refs.submitButton.$el.focus();
+      },  
        handleClick:function(btnAct,btnTarget) {
          var str = JSON.stringify(this.allCorps);
          alert(btnAct + "--" + str);         
