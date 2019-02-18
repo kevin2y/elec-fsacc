@@ -26,9 +26,9 @@
   </el-table>
       </el-main>
       <el-footer style="height:150px;">
-        <el-form v-enterToNext>
+        <el-form v-enterToNext:lastFunc="saveBankDay">
         <el-row :gutter="24">
-          <el-col :span="6"><div>日期：<el-date-picker v-model="value1" @blur="nextFocus('afterPickDate')" type="date" placeholder="选择日期">
+          <el-col :span="6"><div>日期：<el-date-picker v-model="value1" @blur="nextFocus('afterPickDate')" ref="firstInput" type="date" placeholder="选择日期">
     </el-date-picker></div></el-col>    
           <el-col :span="3"><div>凭证：<el-input placeholder="请输入凭证号" ref="afterPickDate" v-model="input2">  </el-input></div></el-col>
           <el-col :span="12"><div>摘要：<el-input  placeholder="请输入摘要"        v-model="input2">  </el-input></div></el-col>
@@ -131,6 +131,16 @@
         handleCurrentChange(val) {
           this.currentRow = val;
         },
+        focusFirstInput(){
+          this.$refs.firstInput.$el.querySelector('input').focus();
+        },
+        customerDialogOpen() {
+         //  console.log(this);
+        //this.customerVisible = true        
+        this.$nextTick(function () {
+          this.focusFirstInput();
+        });
+      },
         nextFocus(refName){
           console.log("nextFocus..." + refName);
           let el = this.$refs[refName].$el;
@@ -138,11 +148,9 @@
           console.log(ctl);
           ctl.focus(); //最后一个input，焦点跳转到表单最后控件  
         },
-        datePick(elday){
-          console.log("datePick...");
-          console.log(elday);          
-          let ctl = elday.querySelector('input');          
-          ctl.focus(); 
+        saveBankDay(){
+          alert('hi');
+          this.focusFirstInput();
         }
     },
     filters: {
