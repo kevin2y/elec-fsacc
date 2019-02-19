@@ -60,6 +60,20 @@ router.beforeEach((to,from,next)=>{
   next();
 });
 
+//注册过滤器
+Vue.filter("rounding",function(value,showZero) {
+  if(!value){
+    if(showZero)
+      return "￥0.00";
+    else
+      return "";
+  }     
+
+  let amt = value.toFixed(2);
+  let regExpInfo = /(\d{1,3})(?=(\d{3})+(?:$|\.))/g;
+  return "￥" + amt.toString().replace(regExpInfo, "$1,");  
+});
+
 new Vue({
   components: { App },
   router,
