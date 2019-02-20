@@ -20,9 +20,9 @@
           <span>{{scope.row.MoneyOut |moneySum("-")| rounding}}</span>
         </template>  
       </el-table-column>
-      <el-table-column prop="MoneyBalance" label="余额" width="120" align="right">
+      <el-table-column label="余额" width="120" align="right">
         <template slot-scope="scope">
-          <span>{{scope.row.MoneyBalance|moneySum| rounding(true)}}</span>
+          <span>{{scope.row.MoneyOut|moneySum| rounding(true)}}</span>
         </template>  
       </el-table-column>      
     </el-table-column>
@@ -37,9 +37,9 @@
           <span>{{scope.row.BankOut |bankSum("-")| rounding}}</span>
         </template>  
       </el-table-column>
-      <el-table-column prop="BankBalance" label="余额" width="120" align="right">
+      <el-table-column label="余额" width="120" align="right">
         <template slot-scope="scope">
-          <span>{{scope.row.BankBalance | bankSum|rounding(true)}}</span>
+          <span>{{scope.row.BankOut | bankSum|rounding(true)}}</span>
         </template>  
       </el-table-column>      
     </el-table-column>
@@ -188,11 +188,9 @@ let bankTotal = 0.0;
             BillNo:"",
             Desc:"",
             MoneyIn:0.0,
-            MoneyOut:0.0,
-            MoneyBalance:0.0,
+            MoneyOut:0.0,            
             BankIn:0.0,
-            BankOut:0.0,
-            BankBalance:0.0
+            BankOut:0.0,           
           };
 
           var arr = Object.keys(this.editBank);

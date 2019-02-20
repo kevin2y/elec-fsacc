@@ -69,8 +69,7 @@
 
 export default {  
   name: 'home',  
-  created: function() {
-     
+  created: function() {       
     //   let su = this.$refs.submitButton.$el;
     //   console.log("Home init..." + su)
       let curApi = this.$parent.currView;      
@@ -113,9 +112,7 @@ export default {
           return this.$store.state.Corp.CurCorp;
       }
   },
-  mounted(){
-      //console.log("mounted...");
-      //this.$store.dispatch("getAllCorps");
+  mounted(){      
       this.showAllCorps();      
   },
  methods:{
